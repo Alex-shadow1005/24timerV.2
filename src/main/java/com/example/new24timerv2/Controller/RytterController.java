@@ -38,7 +38,7 @@ public class RytterController {
     }
 
     */
-
+/*
    /* @GetMapping("/{name}")
     public ResponseEntity<List<rytterModel>> readbikerlistTeam(@PathVariable String name) {
         List<rytterModel> bikerlist = rytterService.readbikerList();
@@ -55,6 +55,8 @@ public class RytterController {
         Optional<RytterModel> readbiker = rytterService.readbiker(id);
         return readbiker.orElse(null);
     }
+
+
 
 
     @PostMapping
